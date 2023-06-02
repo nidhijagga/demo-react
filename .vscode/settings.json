@@ -1,0 +1,12 @@
+{
+    "editor.fontSize": 20,
+    "editor.suggestFontSize": 10,
+    "screencastMode.fontSize": 80,
+    "scm.inputFontSize": 20,
+    "debug.console.fontSize": 20,
+    "terminal.integrated.fontSize": 16,
+    "interactiveSession.editor.fontSize": 20,
+    "markdown.preview.fontSize": 20,
+    "editor.tabSize": 10,
+    "editor.accessibilityPageSize": 20
+}
