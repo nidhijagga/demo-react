@@ -1,26 +1,19 @@
 function ExpenseItem() {
+let expenseDate = new Date(2023, 5, 2);
+let expenseTitle = "Groceries";
+let expenseAmount = 3000;
   return (
     <>
-      <div class="container">
-        <div class="row">
-          <div class="col">Date</div>
-          <div class="col">Title</div>
-          <div class="col">Amount</div>
+      <div className="container">
+        <div className="row">
+          <div className="col">Date</div>
+          <div className="col">Title</div>
+          <div className="col">Amount</div>
         </div>
-        <div class="row">
-          <div class="col">2023-05-10</div>
-          <div class="col">Groceries</div>
-          <div class="col">Rs.3000</div>
-        </div>
-        <div class="row">
-          <div class="col">2023-05-10</div>
-          <div class="col">Petrol</div>
-          <div class="col">Rs.1000</div>
-        </div>
-        <div class="row">
-          <div class="col">2023-05-10</div>
-          <div class="col">Movies</div>
-          <div class="col">Rs.500</div>
+        <div className="row">
+          <div className="col">{expenseDate.toISOString()}</div>
+          <div className="col">{expenseTitle}</div>
+          <div className="col">Rs.{expenseAmount}</div>
         </div>
       </div>
       
