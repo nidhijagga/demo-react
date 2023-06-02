@@ -1,19 +1,11 @@
-function ExpenseItem() {
-let expenseDate = new Date(2023, 5, 2);
-let expenseTitle = "Groceries";
-let expenseAmount = 3000;
+function ExpenseItem(props) {
   return (
     <>
       <div className="container">
         <div className="row">
-          <div className="col">Date</div>
-          <div className="col">Title</div>
-          <div className="col">Amount</div>
-        </div>
-        <div className="row">
-          <div className="col">{expenseDate.toISOString()}</div>
-          <div className="col">{expenseTitle}</div>
-          <div className="col">Rs.{expenseAmount}</div>
+          <div className="col">{props.date}</div>
+          <div className="col">{props.title}</div>
+          <div className="col">Rs.{props.amount}</div>
         </div>
       </div>
       
